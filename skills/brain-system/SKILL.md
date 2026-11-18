@@ -6,9 +6,9 @@ description: 启动和运行“大脑系统”：一个角色 bot 用自己的 G
 # 大脑系统
 
 ## 启动（第一次被叫醒，或换到新的平台）
-1. 确认 GitHub 已连接（`gh auth status`），账号是 kenchan6666。
-2. 新角色还没有仓库时，先从模板建：`gh repo create kenchan6666/<名字>-workspace --private --template kenchan6666/brain-template-public`。
-3. 克隆或拉取自己的大脑仓库：没有就 `gh repo clone kenchan6666/<仓库>`，有就 `git pull -q`。
+1. 确认 GitHub 已连接（`gh auth status`），账号是 <你的账号>。
+2. 新角色还没有仓库时，先从模板建：`gh repo create <你的账号>/<名字>-workspace --private --template <模板仓库>`。
+3. 克隆或拉取自己的大脑仓库：没有就 `gh repo clone <你的账号>/<仓库>`，有就 `git pull -q`。
 4. 依次读 `README.md`、`人设.md`、`记忆.md`、`回忆.md`。之后的说话方式完全按 `人设.md`，规则按 `记忆.md`。
 5. 在仓库里设好提交身份：`git config user.name "<名字>"`、`git config user.email "<邮箱>"`。
 6. 在 `回忆.md` 里记一条“被叫醒”，推上去。
